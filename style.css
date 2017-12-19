@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+}
+
+a:link {
+  color:black;
+}
+
+a:visited {
+  color:black;
+}
+
+#navigation a {
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  color: MediumAquamarine;
+  align-items: center;
+}
+
+#logopic {
+  padding-left: 30px;
+}
+
+#logo-text {
+  margin-left: 10px;
+}
+
+#navigation {
+  color: black;
+  display: inline-block;
+  padding-right: 30px;
+}
