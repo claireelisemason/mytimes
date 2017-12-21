@@ -8,10 +8,14 @@ body {
   font-size: 14px;
   font-weight: bold;
   align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  height: 80px;
   border-bottom: 1px solid black;
   justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
 }
 
 a:link {
@@ -46,16 +50,16 @@ a:visited {
   padding-right: 30px;
 }
 
+
 .container {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   margin-top: 10px;
-  border: 1px solid black;
+  padding-top: 90px;
 }
 
 .column {
   display: flex;
-  border: 1px solid black;
   flex-direction: column;
   margin-top: 30px;
 }
@@ -72,6 +76,69 @@ a:visited {
   width: 240px;
 }
 
-.content {
-  border: 1px solid black;
+.lead-story .image-content {
+  background-image: url("./resources/img-story-main.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.story {
+  width: 300px;
+}
+
+.story-text {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-content {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: flex;
+}
+
+.earth-spins.image-content {
+  background-image: url("./resources/img-story-2.png");
+  height: 300px;
+}
+
+.camera-memory.image-content {
+  background-image: url("./resources/img-story-3.png");
+  height: 300px;
+}
+
+.cat-control.image-content {
+  background-image: url("./resources/img-story-1.png");
+  height: 300px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.news-bites {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-bites span {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  padding: 11px 20px;
+  color: DimGray;
+  border-bottom: 1px solid black;
 }
